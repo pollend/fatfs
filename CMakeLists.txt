@@ -6,6 +6,7 @@ target_include_directories(ELMFAT INTERFACE include)
 
 zephyr_library()
 zephyr_library_sources(
+    option/unicode.c
     ff.c
     zfs_diskio.c
     )

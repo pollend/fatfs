@@ -2,8 +2,8 @@
 /* Unicode - OEM code bidirectional converter  (C)ChaN, 2015              */
 /* CP936 (Simplified Chinese GBK)                                         */
 /*------------------------------------------------------------------------*/
+#include <ff.h>
 
-#include "../ff.h"
 
 
 #if !_USE_LFN || _CODE_PAGE != 936
